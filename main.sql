@@ -7,12 +7,12 @@ CREATE TABLE IF NOT EXISTS STUDENT (
 );
 
 INSERT INTO STUDENT (ROLL_NO, NAME, ADDRESS, PHONE, AGE) VALUES
-('1', 'RAM', 'DELHI', '**********', '18'),
-('2', 'RAMESH', 'GURGAAON', '**********', '18'),
-('3', 'SUJIT', 'ROHTAK', '**********', '20'),
-('4', 'SURESH', 'DELHI', '**********', '18'),
-('5', 'AMAN', 'ROHTAK', '**********', '20'),
-('6', 'HARSH', 'GURGAON', '**********', '18');
+('1', 'ADARSH', 'DELHI', '1234567890', '18'),
+('2', 'ADITYA', 'GURGAAON', '1234567890', '18'),
+('3', 'AVINISH', 'ROHTAK', '1234567890', '20'),
+('4', 'SRIJIT', 'DELHI', '1234567890', '18'),
+('5', 'PRALINE', 'ROHTAK', '1234567890', '20'),
+('6', 'AVI', 'GURGAON', '1234567890', '18');
 
 SELECT * FROM STUDENT;
 
